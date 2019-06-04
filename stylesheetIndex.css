@@ -1,5 +1,6 @@
 body {
     background-color: mediumaquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -10,8 +11,24 @@ body {
     grid-gap: 12px;
 }
 
-.grid-item {
+.grid-item-a {
+    border-width: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: whitesmoke;
+    border-width: 15px;
+    border-style: solid;
+    height: 75px;
+    width: 75px;
+}
+
+.grid-item-c {
     border-width: 12px;
     border-radius: 12px;
     text-align: center;
+    border-color: black;
+    border-width: 15px;
+    border-style: solid;
+    height: 75px;
+    width: 75px;
 }
